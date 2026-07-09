@@ -9,7 +9,8 @@ export const personal = {
   email: "zoyak.khan@mail.utoronto.ca",
   linkedin: "https://www.linkedin.com/in/zoya-k",
   linkedinHandle: "in/zoya-k",
-  github: "https://github.com/Zoya-K",
+  github: "https://github.com/ZoyaKhn",
+  githubHandle: "ZoyaKhn",
   location: "Toronto, ON",
   resumePath: "/Zoya_Khan_Resume.pdf",
 };
@@ -159,7 +160,7 @@ export const projectCategories: ProjectCategory[] = [
         award: "Stakeholder: BaseCamp Climbing",
       },
       {
-        title: "RSX Mars Rover Hackathon",
+        title: "2nd Place Winner | RSX Mars Rover Hackathon",
         role: "Team Lead · Robotics",
         period: "Mar. 2023",
         description:
@@ -185,7 +186,7 @@ export const projectCategories: ProjectCategory[] = [
       "Consulting case competitions and business strategy challenges at the intersection of engineering and business.",
     projects: [
       {
-        title: "Deloitte Ace the Case",
+        title: "1st Place Winner | Deloitte Ace the Case",
         role: "Case Competition · UofT",
         period: "Jan. 2026",
         description:
@@ -194,7 +195,7 @@ export const projectCategories: ProjectCategory[] = [
         award: "1st Place",
       },
       {
-        title: "CIBC AI & Tech Spark Hackathon",
+        title: "2nd Place Winner | CIBC AI & Tech Spark Hackathon",
         role: "Hackathon · CIBC",
         period: "Apr. 2026",
         description:
@@ -203,7 +204,7 @@ export const projectCategories: ProjectCategory[] = [
         award: "2nd Place",
       },
       {
-        title: "Sardo Foods Case Competition",
+        title: "2nd Place Winner | Sardo Foods Case Competition",
         role: "Case Competition · UofT Engineering Business",
         period: "Sep. 2023",
         description:
@@ -211,14 +212,7 @@ export const projectCategories: ProjectCategory[] = [
         tags: ["Business Strategy", "Market Analysis", "Profitability"],
         award: "2nd Place",
       },
-      {
-        title: "UTESCA Weekly Case Studies",
-        role: "Case Team Member · UTESCA",
-        period: "2023 – Present",
-        description:
-          "Tackle a new consulting case study each week in preparation for national case competitions, applying structured frameworks across profitability, market entry, M&A, and operations cases with Big 4-calibre rigour.",
-        tags: ["Consulting", "Case Prep", "Frameworks", "Team Strategy"],
-      },
+
     ],
   },
   {
@@ -250,14 +244,6 @@ export const projectCategories: ProjectCategory[] = [
         description:
           "Implemented an autocomplete engine using weighted term lists, qsort, and binary search with manual memory allocation. Built a seam-carving image resizer using dual-gradient energy and dynamic programming to preserve visual features.",
         tags: ["C", "Dynamic Programming", "Memory Management", "Algorithms"],
-      },
-      {
-        title: "Web Development & GitHub",
-        role: "Personal Learning",
-        period: "2022 – Present",
-        description:
-          "Completed Wes Bos's JavaScript30 vanilla JS challenge and built web projects including test automation (Karate), HTML/CSS tutorials, and personal sites. Active on GitHub with ongoing project development.",
-        tags: ["JavaScript", "HTML/CSS", "GitHub", "Test Automation"],
       },
     ],
   },
@@ -329,15 +315,11 @@ export const skills = {
     "Power Automate",
     "SolidWorks",
   ],
-  "Certifications & Awards": [
+  Certifications: [
     "PL-900: Microsoft Power Platform (2026)",
     "AI for Product Owners (2026)",
     "Lean Six Sigma Yellow Belt (2025)",
     "Certificate of Bilingual Studies: French (2022)",
-    "2nd Place — AI & Tech Spark Hackathon, CIBC (2026)",
-    "1st Place — Ace the Case, Deloitte x UofT (2026)",
-    "2nd Place — Sardo Foods Case, UofT (2023)",
-    "2nd Place — RSX Mars Rover Hackathon, UofT (2023)",
   ],
 };
 
@@ -349,3 +331,4 @@ export const navLinks = [
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
 ];
+

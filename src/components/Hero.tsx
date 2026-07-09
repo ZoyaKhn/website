@@ -48,14 +48,26 @@ export default function Hero() {
         </div>
 
         <div className="mx-auto md:mx-0">
-          <div className="group relative">
-            <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-blush via-rose-light to-blush opacity-60 transition-opacity group-hover:opacity-80" />
-            <div className="relative flex h-64 w-64 items-center justify-center rounded-3xl border border-rose-light/60 bg-white/80 shadow-lg backdrop-blur-sm md:h-72 md:w-72">
-              <div className="text-center">
-                <div className="mx-auto mb-3 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-blush to-rose-light">
-                  <span className="font-serif text-4xl font-semibold text-navy">ZK</span>
-                </div>
-                <p className="text-sm font-medium text-navy/50">Photo placeholder</p>
+          <div className="relative w-full max-w-sm rounded-3xl border border-rose-light/50 bg-white/75 p-6 shadow-lg backdrop-blur-sm">
+            <p className="text-xs font-medium tracking-widest text-rose uppercase">
+              Portfolio
+            </p>
+            <div className="mt-4 space-y-4">
+              <div>
+                <p className="text-sm font-medium text-navy/50">Focus</p>
+                <p className="mt-1 font-serif text-2xl font-semibold text-navy">
+                  Engineering, analytics, and strategy
+                </p>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                {[["Projects", "10+"],["Competitions", "Award-winning"],["Tools", "Multi-disciplinary"],["Impact", "Measured"]].map(([label, value]) => (
+                  <div key={label} className="rounded-2xl bg-blush-light/60 px-4 py-3">
+                    <p className="text-[11px] font-medium tracking-wider text-rose uppercase">
+                      {label}
+                    </p>
+                    <p className="mt-1 text-sm font-semibold text-navy">{value}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -64,3 +76,5 @@ export default function Hero() {
     </section>
   );
 }
+
+
