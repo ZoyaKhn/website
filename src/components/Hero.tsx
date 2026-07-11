@@ -26,13 +26,6 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4 pt-2">
             <a
-              href={personal.resumePath}
-              download
-              className="rounded-full bg-navy px-7 py-3 text-sm font-medium text-cream shadow-md transition-all hover:-translate-y-0.5 hover:bg-navy-light hover:shadow-lg"
-            >
-              View Resume
-            </a>
-            <a
               href="#projects"
               className="rounded-full border border-rose-muted/50 bg-white/60 px-7 py-3 text-sm font-medium text-navy transition-all hover:-translate-y-0.5 hover:border-rose hover:bg-blush-light hover:shadow-md"
             >

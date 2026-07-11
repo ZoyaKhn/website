@@ -12,7 +12,6 @@ export const personal = {
   github: "https://github.com/ZoyaKhn",
   githubHandle: "ZoyaKhn",
   location: "Toronto, ON",
-  resumePath: "/Zoya_Khan_Resume.pdf",
 };
 
 export const about = `I'm a Mechanical Engineering student at the University of Toronto with an Engineering Business minor through Rotman, on the Dean's Honour List and recognized with $50K+ in merit scholarships. My experience spans process engineering at CIBC, data analytics at BMO, and continuous improvement at Mother Parkers — alongside leadership in UTESCA, WISE, and UTCA. Whether I'm redesigning exception workflows, analyzing 170+ banking KPIs, designing a 3D printer in SolidWorks, or building CNN models in PyTorch, I bring the same focus: understand the problem deeply, engage stakeholders, and deliver measurable results.`;

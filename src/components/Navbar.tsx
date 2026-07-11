@@ -47,14 +47,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a
-          href={personal.resumePath}
-          download
-          className="hidden rounded-full bg-navy px-5 py-2 text-sm font-medium text-cream transition-all hover:bg-navy-light hover:shadow-md md:inline-block"
-        >
-          Resume
-        </a>
-
         <button
           type="button"
           aria-label="Toggle menu"
@@ -87,16 +79,6 @@ export default function Navbar() {
                 </a>
               </li>
             ))}
-            <li className="pt-2">
-              <a
-                href={personal.resumePath}
-                download
-                className="block rounded-full bg-navy px-5 py-2.5 text-center text-sm font-medium text-cream"
-                onClick={() => setMenuOpen(false)}
-              >
-                Resume
-              </a>
-            </li>
           </ul>
         </div>
       )}

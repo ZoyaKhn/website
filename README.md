@@ -19,10 +19,6 @@ All portfolio text, experience, projects, and skills live in a single file:
 
 Update that file to change copy without touching component code.
 
-## Resume
-
-The resume PDF is in `public/Zoya_Khan_Resume.pdf`. Replace that file to update the downloadable resume linked from the hero and navbar.
-
 ## Build for Production
 
 ```bash
