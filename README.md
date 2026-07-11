@@ -44,6 +44,7 @@ GEMINI_API_KEY=your_api_key_here
 ```
 
 3. Optional: change the model with `GEMINI_MODEL` if you want a different Gemini model.
+4. For local development, you can copy `.env.example` to `.env.local` and replace the key with your real Gemini API key.
 
 The chatbot reads from [`website-knowledge.md`](website-knowledge.md) and sends that file as the prompt context for each request.
 
